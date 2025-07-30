@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Quiz App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="start-page" class="page active">
+            <h1>Welcome to the Awesome Quiz!</h1>
+            <p>Test your knowledge with our engaging quiz.</p>
+            <p>You'll answer 10 questions.</p>
+            <button id="start-quiz-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-page" class="page">
+            <div class="quiz-header">
+                <div id="timer">Time Left: <span id="time">00:00</span></div>
+                <div id="score">Score: <span id="current-score">0</span></div>
+            </div>
+            <div id="progress-indicator">Question 1 of 10</div>
+            <h2 id="question-text">Question goes here?</h2>
+            <div id="options-container" class="options-grid">
+                </div>
+            <button id="next-btn" class="hidden">Next</button>
+        </div>
+
+        <div id="result-page" class="page">
+            <h1>Quiz Results</h1>
+            <p>You answered <span id="correct-answers">0</span> out of <span id="total-questions-result">0</span> questions correctly!</p>
+            <p>Your score: <span id="final-score">0</span>%</p>
+            <p>Time taken: <span id="time-taken">00:00</span></p>
+            <button id="try-again-btn">Try Again</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
