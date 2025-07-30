@@ -1,4 +1,4 @@
-# 🎉 Awesome Quiz App
+# 🎉 QuizzyQuest
 
 Welcome to the **Awesome Quiz App** – a fun and interactive browser-based quiz game built with HTML, CSS, and JavaScript! 🧠🎮
 
